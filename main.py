@@ -28,4 +28,4 @@ history = chatbot_brain.fit(
 )
 
 # save the chatbot_brain into a file called 'chatbot_brain.keras'
-chatbot_brain.save('Barista.keras')
+chatbot_brain.save('chatty.keras')

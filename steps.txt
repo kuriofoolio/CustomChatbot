@@ -1,0 +1,6 @@
+pip install -r requirements.txt
+py main.py
+py chatbot_app.py
+
+// payments- diagnosis
+delivery- remedy

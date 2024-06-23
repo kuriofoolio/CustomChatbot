@@ -9,24 +9,24 @@
           "Is anyone there?",
           "Hello",
           "Good day",
-          "shikamoo"
+          "help", "assistance" ,"advice", "diagnosis"
+
+          
         ],
         "responses": [
           "Hey :-), how can I help?",
           "Hi there, what can I do for you?",
           "Hi there, how can I help?", 
-          "marahaba"
+          "can you help me"
         ]
       },
       {
         "tag": "goodbye",
         "patterns": [
-          "Bye",
-          "alamsiki", 
+          "Bye","i'm done for today", "i'll reach out to you soon",
           "See you later",
           "Goodbye"],
         "responses": [
-          "binuru",
           "See you later, thanks for visiting",
           "Have a nice day",
           "Bye! Come back again soon."
@@ -34,48 +34,51 @@
       },
       {
         "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "shukran"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure", "hewala"]
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "glad to have helped"]
       },
       {
         "tag": "items",
         "patterns": [
-          "Which items do you have?",
-          "unachuuza nini?",
+        
+          "what are you versed in", "i have these symptoms", 
           "What kinds of items are there?",
-          "What do you sell?"
+          "What can you diagnose?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea",
-          "tunauza kahawa na chai"
+          "I can diagnose malaria",
+          "If you share particular symptoms, I may tell you what you're suffering from"
+          
         ]
       },
       {
-        "tag": "payments",
+        "tag": "diagnosis",
         "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?", 
-          "ninaweza jazia na pesa ya mtandaoni?"
+          "I have these symptoms",
+          "I have been down with a cold",
+          "I have been feeling unwell",
+          "I have rashes on my skin"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal",
-          "bila shaka"
+          "That must be terrible",
+          "Based on your symptoms, you may be suffering from malaria"
+          
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "remedy",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "What should i do?",
+          "How can i relieve my pain",
+          "suggest a suitable remedy"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "Seek a doctor for medical advice",
+          "Take lots of water",
+          "Take lots of panadol",
+          "spray mortein doom in your room",
+          "sleep under a mosquito net"
+
         ]
       },
       {
@@ -94,3 +97,6 @@
       }
     ]
   }
+
+
+  

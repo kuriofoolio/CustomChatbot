@@ -2,6 +2,7 @@
 import json
 import random
 import tensorflow as tf
+from tensorflow import keras
 import numpy as np
 from nltk_utils import tokenize, bag_of_words, generate_chatbot_response
 from data_preprocess import vocabulary, tags
@@ -11,11 +12,11 @@ with open('intent.json', 'r') as json_data:
     intents = json.load(json_data)
 
 # load the saved chatbot brain
-chatbot_brain = tf.keras.models.load_model('Barista.keras')
+chatbot_brain = tf.keras.models.load_model('chatty.keras')
 
 # Create the console chatbot app
-bot_name = "Sam"
-print("Let's chat! (type 'quit' to exit)")
+bot_name = "Dokotari"
+print("What's the issue? I'd very much love to help (type 'quit' to exit)")
 while True:
     sentence = input("You: ")
     if sentence == "quit":
