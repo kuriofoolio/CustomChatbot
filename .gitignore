@@ -1,3 +1,5 @@
 __pycache__/
 venv/
 pusher.sh
+/test
+/llama-2-7b-chat.ggmlv3.q8_0.bin
